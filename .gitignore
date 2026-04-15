@@ -1,0 +1,14 @@
+*.iml
+.gradle
+android/local.properties
+android/.idea
+android/.DS_Store
+android/build
+android/captures
+android/.externalNativeBuild
+android/.cxx
+android/local.properties
+# Unit test reports
+
+# Log files
+*.log
