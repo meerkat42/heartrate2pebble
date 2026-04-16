@@ -4,7 +4,7 @@ A lightweight, open-source Android bridge that streams real-time heart rate data
 
 
 ## Overview
-This app is designed for users who want to monitor their heart rate during workouts without constantly checking their phone. It functions as a foreground service that:
+This app is designed for users who want to monitor their heart rate without constantly checking their phone. It functions as a foreground service that:
 1. Connects to a Bluetooth Low Energy (BLE) Heart Rate Strap.
 2. Displays live data on your Android device.
 3. Forwards heart rate packets to your Pebble watch via the Pebble app.
