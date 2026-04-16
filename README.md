@@ -4,7 +4,7 @@ A lightweight, open-source Android bridge that streams real-time heart rate data
 
 
 ## Overview
-This app is designed for users who have a Pebble watch without any heart rate monitor and want to view their heart rate without constantly checking their phone. It has a simple interface that does only one thing - displays the heart rate on both phone and watch.
+This app is designed for users who have a Pebble watch without any heart rate monitor and want to view their heart rate without constantly checking their phone. It has a simple interface with one main focus which is to display the live heart rate data on both phone and watch.
 It functions as a foreground service that:
 1. Connects to a Bluetooth Low Energy (BLE) Heart Rate Strap.
 2. Displays live data on your Android device.
