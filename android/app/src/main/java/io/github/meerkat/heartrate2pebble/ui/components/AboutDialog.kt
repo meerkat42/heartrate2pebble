@@ -30,7 +30,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import io.github.meerkat.heartrate2pebble.BuildConfig
-private const val PRIVACY_POLICY_URL = "https://example.com/privacy"
+private const val PRIVACY_POLICY_URL = "https://github.com/meerkat42/heartrate2pebble/blob/main/PRIVACY.md"
 
 
 @Composable

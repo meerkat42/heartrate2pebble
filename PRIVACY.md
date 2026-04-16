@@ -24,7 +24,7 @@ Last Updated: April 2026
 
 4. Open Source Transparency
 
-	The source code for this Software is available for audit at [Your Repo Link]. This transparency ensures that the Software functions exactly as described without hidden tracking or telemetry.
+	The source code for this Software is available for audit at https://github.com/meerkat42/heartrate2pebble. This transparency ensures that the Software functions exactly as described without hidden tracking or telemetry.
 
 5. Disclaimer Alignment
 
