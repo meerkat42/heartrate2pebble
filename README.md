@@ -1,4 +1,4 @@
-# Heartrate2Pebble (1.0.0-beta)
+# Heartrate2Pebble (1.0.2-beta)
 
 A lightweight, open-source Android bridge that streams real-time heart rate data from Bluetooth LE wearables directly to your Pebble smartwatch.
 
