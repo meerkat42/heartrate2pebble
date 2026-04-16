@@ -34,6 +34,7 @@ This app is designed for users who want to monitor their heart rate during worko
 
 ### Installation
 1. Download the latest APK from the [Releases](link-to-your-github-releases) page.
+2. Get the Pebble app from the Pebble store.
 2. Grant **Bluetooth** and **Nearby Devices** permissions.
 3. Grant **Notification** permissions (required for the background service).
 4. Pair your Heart Rate strap within the app.
