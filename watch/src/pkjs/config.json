@@ -1,0 +1,26 @@
+[    
+    {
+        "type": "input",
+        "messageKey": "Disconnected_Label_Timeout",
+        "label": "Disconnected Timeout for Label",
+        "attributes": {
+            "placeholder": "5",
+            "type": "number",
+            "min": 1,
+            "max": 30
+        },
+        "description": "Enter a value between 0 and 30."
+    },
+    {
+        "type": "input",
+        "messageKey": "Disconnected_Vibrate_Timeout",
+        "label": "Disconnected Timeout for Vibration",
+        "attributes": {
+            "placeholder": "20",
+            "type": "number",
+            "min": 1,
+            "max": 60
+        },
+        "description": "Enter a value between 0 and 60."
+    }
+]

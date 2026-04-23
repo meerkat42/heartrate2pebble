@@ -1,6 +1,6 @@
 # Heartrate2Pebble 
 
-A lightweight, open-source Android bridge that streams real-time heart rate data from Bluetooth LE wearables directly to your Pebble smartwatch.
+Turn any Pebble watch into a heartrate monitor. A lightweight, open-source Android bridge that streams real-time heart rate data from Bluetooth LE wearables directly to your Pebble smartwatch.
 
 
 ## Overview

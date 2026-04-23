@@ -1,0 +1,69 @@
+{
+  "name": "heartrate2pebble",
+  "projectType": "native",
+  "author": "meer.kat",
+  "version": "0.1.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "pebble": {
+    "displayName": "Heartrate2Pebble",
+    "uuid": "170fe807-7a48-4756-b5a1-671178e00f03",
+    "sdkVersion": "3",
+    "projectType": "native",
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery",
+      "flint",
+      "gabbro"
+    ],
+    "messageKeys": {
+      "BPM": 1,
+      "Disconnected_Label_Timeout": 2,
+      "Disconnected_Vibrate_Timeout": 3
+    },
+    "capabilities": [
+      "configurable"
+    ],
+    "enableMultiJS": true,
+    "watchapp": {
+      "watchface": false
+    },
+    "resources": {
+      "media": [
+        {
+          "type": "font",
+          "name": "FONT_ROBOTO_BLACK_70",
+          "file": "fonts/RobotoBlack.ttf",
+          "characterRegex": "[0-9-]",
+          "compatibility": "2.7"
+        },
+        {
+          "type": "bitmap",
+          "name": "MENU_ICON",
+          "file": "images/menu_icon_black_white.png",
+          "memoryFormat": "Smallest",
+          "spaceOptimized": true,
+          "menuIcon": true
+        }
+      ]
+    },
+    "companionApp": {
+      "android": {
+        "url": "https://github.com/meerkat42/heartrate2pebble/releases",
+        "apps": [
+          {
+            "package": "io.github.meerkat.heartrate2pebble"
+          }
+        ]
+      }
+    }
+  },
+  "dependencies": {
+    "@rebble/clay": "^1.0.8"
+  }
+}

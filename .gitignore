@@ -12,3 +12,10 @@ android/local.properties
 
 # Log files
 *.log
+
+watch/build/*
+watch/node_modules
+watch/.lock-waf_linux_build
+watch/package-lock.json
+
+*.png
