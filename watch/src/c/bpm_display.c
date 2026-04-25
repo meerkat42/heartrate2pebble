@@ -37,11 +37,11 @@
 #define PERSIST_KEY_VIBRATE_TIMEOUT 2
 
 /* ── Colors ────────────────────────────────────────────────────────────── */
-#define COLOR_BACKGROUND          GColorBlack
-#define COLOR_BPM_NUMBER          GColorRed    
-#define COLOR_BPM_LABEL           GColorDarkGray
-#define COLOR_STATUS_CONNECTED    GColorGreen
-#define COLOR_STATUS_DISCONNECTED GColorDarkGray
+#define COLOR_BACKGROUND          PBL_IF_COLOR_ELSE(GColorBlack, GColorWhite)
+#define COLOR_BPM_NUMBER          PBL_IF_COLOR_ELSE(GColorRed, GColorBlack)    
+#define COLOR_BPM_LABEL           PBL_IF_COLOR_ELSE(GColorDarkGray, GColorBlack)
+#define COLOR_STATUS_CONNECTED    PBL_IF_COLOR_ELSE(GColorGreen, GColorBlack)
+#define COLOR_STATUS_DISCONNECTED PBL_IF_COLOR_ELSE(GColorDarkGray, GColorBlack)
 
 /* ═══════════════════════════════════════════════════════════════════════
  * PADDING — edit CONTENT_PADDING_PX to add space around the number and
